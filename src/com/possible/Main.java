@@ -4,8 +4,8 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        int[] A = new int[] { 1, 2, 3 };
-        int[] B = new int[] { 4, 5, 6 };
+        int[] A = new int[] { 100, 250, 300 };
+        int[] B = new int[] { 450, 700, 600 };
         int arrSize = 3;
         int[] mergeArray  = encodeArray(A, B, arrSize);
         System.out.println(decodeArrayB(mergeArray, new int[] { 1, 2, 3 }));
