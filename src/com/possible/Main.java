@@ -4,11 +4,9 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        int[] A = new int[] { 100, 250, 300 };
-        int[] B = new int[] { 450, 700, 600 };
-        int arrSize = 3;
-        int[] mergeArray  = encodeArray(A, B, arrSize);
-        System.out.println(decodeArrayB(mergeArray, new int[] { 1, 2, 3 }));
+        int arrSize = 5;
+        int[] mergeArray  = encodeArray(new int[]{ 100, 200, 350, 400, 550 }, new int[] { 90, 110, 15, 205,390 }, arrSize);
+        System.out.println(decodeArrayB(mergeArray, new int[]{ 100, 200, 350, 400, 550 }));
     }
 
 
